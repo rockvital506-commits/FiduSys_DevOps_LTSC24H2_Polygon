@@ -1,0 +1,14 @@
+# Глобальное поведение по умолчанию
+* text=auto
+
+# Жесткое форсирование Windows CRLF (ОБЯЗАТЕЛЬНО ДЛЯ ИСПОЛНЕНИЯ В WinPE/LTSC)
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.xml text eol=crlf
+*.json text eol=crlf
+*.ini text eol=crlf
+
+# Форсирование LF для документации и линукс-скриптов
+*.md text eol=lf
+*.sh text eol=lf
