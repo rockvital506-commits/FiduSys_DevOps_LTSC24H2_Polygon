@@ -1,8 +1,1 @@
-# SYSTEM DIRECTIVES FOR AI AGENT (FiduSys DevOps LTSC24H2 Polygon)
 
-1. **PRIMARY DIRECTIVE:** You MUST read and strictly follow the `/README.md` file before generating any code.
-2. **IMMUTABILITY:** Section 1 of `README.md` is READ-ONLY. Do not attempt to modify the hardware specs, OS version, or core success criteria.
-3. **GATING PROTOCOL:** If you encounter ambiguity, lack of context, or are about to modify a core structure, you MUST stop coding and create a GitHub Issue using the `.github/ISSUE_TEMPLATE/gate_trigger.yml` template.
-4. **DOCUMENTATION FIRST:** Before modifying or creating PowerShell/Batch scripts in `/scripts/`, you MUST generate an Architecture Decision Record (ADR) in `/docs/decisions/` using the `0000-ADR-TEMPLATE.md`.
-5. **ZERO REDUNDANCY:** Do not generate example code. Do not leave "TODO" comments without completing the logic. Write imperative, highly optimized, machine-readable code.
-6. **ENCODING:** All Windows scripts (`.ps1`, `.bat`, `.xml`) MUST be saved with CRLF line endings.
